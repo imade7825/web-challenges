@@ -12,7 +12,11 @@ console.clear();
 const bookTitle = "Der Bote";
 const bookAuthor = "Ingar Johnsgrud";
 const bookRating = 5;
-const bookCopies = 48;
+const bookCopies = 3;
+const title = "Title: ";
+const author = "Autohr: ";
+const ratting = "Ratting: ";
+const sales = "Sales: ";
 
 // --^-- write your code here --^--
 
@@ -48,5 +52,11 @@ console.log("Sales: ", bookCopies);
 */
 
 // --v-- write your code here --v--
-
+function logBookData(a, b) {
+  console.log(a, b);
+}
+logBookData(title, bookTitle);
+logBookData(author, bookAuthor);
+logBookData(ratting, bookRating);
+logBookData(sales, bookCopies);
 // --^-- write your code here --^--
